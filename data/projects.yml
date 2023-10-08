@@ -1,19 +1,19 @@
 - name: Ikigai
   description: Elderly care app
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: projects/ikigai.png
+  url: https://www.ikigai.bond
 
-- name: Movie Watchlist
+- name: Eiga Knight
   description: You can see any movie here
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
+  url: https://eiga-knight-01dc42282fad.herokuapp.com
 
 - name: WardroP
   description: This is a place for being mature!
-  image: projects/placeholder.png
-  url: https://www.google.com
+  image: projects/wardrop.png
+  url: https://wardrop-f993abaafe8e.herokuapp.com
 
 - name: Final project
   description: Decent description of the app
-  image: projects/placeholder.png
+  image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
   url: https://www.google.com
