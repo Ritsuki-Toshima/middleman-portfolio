@@ -3,23 +3,36 @@
   image: projects/ikigai.png
   url: https://www.ikigai.bond
   github: https://github.com/Ritsuki-Toshima/ikigai1298
-  skill: https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim
+  skill: <i class="devicon-heroku-plain-wordmark me-1"></i>
+         <i class="devicon-postgresql-plain-wordmark me-1"></i>
+         <i class="devicon-javascript-plain me-1"></i>
+         <i class='devicon-rails-plain-wordmark me-1'></i>
+
+
 
 - name: WardroP
   description: Rent high-end clothing for special occasions or share your exquisite wardrobe with fellow fashion enthusiasts.
   image: projects/wardrop.png
   github: https://github.com/Ritsuki-Toshima/WardroP
   url: https://wardrop-f993abaafe8e.herokuapp.com
+  skill: <i class="devicon-heroku-plain-wordmark me-1"></i>
+         <i class="devicon-postgresql-plain-wordmark me-1"></i>
+         <i class="devicon-javascript-plain me-1"></i>
+         <i class='devicon-rails-plain-wordmark me-1'></i>
 
 - name: Movie Knight
   description: Keep track of your favorite movies. You can create your own movie list.
   image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
   github: https://github.com/Ritsuki-Toshima/movie-knight
   url: https://eiga-knight-01dc42282fad.herokuapp.com
-
+  skill: <i class="devicon-heroku-plain-wordmark me-1"></i>
+         <i class="devicon-postgresql-plain-wordmark me-1"></i>
+         <i class="devicon-javascript-plain me-1"></i>
+         <i class='devicon-rails-plain-wordmark me-1'></i>
 
 - name: Final project
   description: Decent description of the app
   image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
   github:
   url: https://www.google.com
+  skill: <i class='devicon-rails-plain-wordmark'></i>

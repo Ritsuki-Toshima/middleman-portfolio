@@ -152,7 +152,7 @@
 footer {
   position: relative;
   width: 100%;
-  background: #3586ff;
+  background: #252830;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -234,14 +234,14 @@ footer p {
 
 footer p a {
   text-decoration: none;
-  color: black;
+  color: rgb(152, 219, 245);
   font-size: 1em;
   transition: 0.5s ease-in-out;
 }
 
 footer p a:hover {
   text-decoration: underline;
-  color: rgb(5, 1, 1);
+  color: rgb(152, 219, 245);
   font-size: 1.2em;
   transform: rotateX(10px);
 }

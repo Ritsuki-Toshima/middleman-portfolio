@@ -143,7 +143,7 @@ Utilities
 .cd-link {
   color: hsl(250, 84%, 54%);
   text-decoration: none;
-  background-image: linear-gradient(to right, hsl(250, 84%, 54%) 50%, hsla(250, 84%, 54%, 0.2) 50%);
+  background-image: linear-gradient(to right, hsla(199, 32%, 52%, 0.713) 50%, hsla(250, 84%, 54%, 0.2) 50%);
   background-size: 200% 1px;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -156,4 +156,77 @@ Utilities
 
 .cd-text-center {
   text-align: center;
+}
+
+/* --------------------------------
+
+buttons
+
+-------------------------------- */
+.link-btn {
+  a {
+    position: relative;
+    width: 140px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background: #f2eff5;
+    overflow: hidden;
+    transition: 0.6s;
+  }
+
+  a:first-child {
+    color: #206592;
+    border-color: #206592;
+  }
+
+  a:last-child {
+    color: #ce5c0c;
+    border-color: #ce5c0c;
+  }
+
+  a:before,
+  a:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    filter: blur(30px);
+    opacity: 0.4;
+    transition: 0.6s;
+  }
+
+  a:before {
+    width: 60px;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+
+  a:after {
+    width: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    transform: translateX(-130px) skewX(-45deg);
+  }
+
+  a:hover:before,
+  a:hover:after {
+    opacity: 0.6;
+    transform: translateX(320px) skewX(-45deg);
+  }
+
+  a:hover {
+    color: #f2f2f2;
+  }
+
+  a:hover:first-child {
+    background: #206592;
+  }
+
+  a:hover:last-child {
+    background: #ce5c0c;
+  }
 }

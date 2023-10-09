@@ -1,5 +1,5 @@
-<div id="projects" style="padding: 80px; background-color: #CDEDFD;">
-  <h2 class="text-center">Projects</h2>
+<div id="projects" style="padding: 80px; background-color: #f3eff5;">
+  <h2 class="text-center" style="font-family: system-ui, sans-serif; font-size: 48px;">Project</h2>
   <section class="feature-v6 cd-padding-y-xl">
     <div class="cd-container cd-max-width-adaptive-lg">
       <div class="feature-v6__grid">
@@ -11,11 +11,11 @@
               <%= image_tag "https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg", alt: "default image", class: "feature-v6__img" %>
             <% end %>
             <div class="d-flex">
-              <h4 class="cd-margin-bottom-2xs"><%= project.name %></h4>
-              <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim"/>
+              <h4 class="cd-margin-bottom-2xs me-2"><%= project.name %></h4>
+              <div style="font-size: 24px; color: #cccccc;"><%= project.skill.html_safe %></div>
             </div>
             <p class="feature-v6__description cd-margin-bottom-xs"><%= project.description %></p>
-            <div class="d-flex">
+            <div class="d-flex link-btn">
               <p class="me-4"><a href="<%= project.url %>" class="cd-link btn", target="_blank">Website<i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
               <p><a href="<%= project.guthub %>" class="cd-link btn", target="_blank">Github<i class="fa-brands fa-square-github"></i></a></p>
             </div>

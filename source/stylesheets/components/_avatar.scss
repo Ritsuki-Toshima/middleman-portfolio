@@ -28,4 +28,15 @@
   object-fit: cover;
   object-position: center 30%;
   border-radius: 50%;
+  border: 7px solid #fff;
+}
+
+.circle {
+  background: conic-gradient(from 220deg, #FD648E 0deg, #884CB2 90deg, #FD648E);
+  border-radius: 100%;
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
