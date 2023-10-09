@@ -1,0 +1,148 @@
+.social-container {
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .copyright {
+    margin-top: 15px;
+
+    a {
+      text-decoration: none;
+      color: #0059CC;
+      transition: .25s;
+      letter-spacing: 0;
+
+      &:hover {
+        color: #004399;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+// Glare Effect
+.glare-style {
+  .social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+
+    a {
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 90px;
+      height: 90px;
+      text-decoration: none;
+      border-radius: 28%;
+      box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      opacity: 0.99;
+      transition: all 0.35s;
+      transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+
+      &:hover {
+        &:before {
+          top: -10%;
+          left: -10%;
+        }
+
+        i {
+          color: #fff !important;
+          transform: scale(1);
+        }
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 90%;
+        left: -110%;
+        width: 120%;
+        height: 120%;
+        transform: rotate(45deg);
+        transition: all 0.35s;
+        transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+      }
+
+      i {
+        font-size: 38px;
+        color: #555;
+        transform: scale(0.8);
+        transition: all 0.35s;
+        transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+      }
+
+      &.ic-facebook {
+        i {
+          color: #006FFF;
+        }
+
+        &:before {
+          background-color: #006FFF;
+        }
+      }
+
+      &.ic-instagram {
+        i {
+          color: #ff5f40;
+        }
+
+        &:before {
+          background-color: #ff5f40;
+        }
+      }
+
+      &.ic-linkedin {
+        i {
+          color: #0177b5;
+        }
+
+        &:before {
+          background-color: #0177b5;
+        }
+      }
+
+      &.ic-github {
+        i {
+          color: #000;
+        }
+
+        &:before {
+          background: linear-gradient(130deg, #fe2c55 0%, black 50%, #25f4ee 100%);
+        }
+      }
+
+      &.ic-mail {
+        i {
+          color: #31aaf6;
+        }
+
+        &:before {
+          background-color: #31aaf6;
+        }
+      }
+    }
+  }
+}

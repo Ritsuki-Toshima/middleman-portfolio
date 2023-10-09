@@ -1,19 +1,25 @@
 - name: Ikigai
-  description: Elderly care app
+  description: Unyielding elder trust, always. Ikigai is the app that connects elderly people and caregivers.
   image: projects/ikigai.png
   url: https://www.ikigai.bond
-
-- name: Eiga Knight
-  description: You can see any movie here
-  image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
-  url: https://eiga-knight-01dc42282fad.herokuapp.com
+  github: https://github.com/Ritsuki-Toshima/ikigai1298
+  skill: https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim
 
 - name: WardroP
-  description: This is a place for being mature!
+  description: Rent high-end clothing for special occasions or share your exquisite wardrobe with fellow fashion enthusiasts.
   image: projects/wardrop.png
+  github: https://github.com/Ritsuki-Toshima/WardroP
   url: https://wardrop-f993abaafe8e.herokuapp.com
+
+- name: Movie Knight
+  description: Keep track of your favorite movies. You can create your own movie list.
+  image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
+  github: https://github.com/Ritsuki-Toshima/movie-knight
+  url: https://eiga-knight-01dc42282fad.herokuapp.com
+
 
 - name: Final project
   description: Decent description of the app
   image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
+  github:
   url: https://www.google.com

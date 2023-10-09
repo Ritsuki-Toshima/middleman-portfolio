@@ -1,4 +1,4 @@
-<div id="projects">
+<div id="projects" style="padding: 80px;">
   <h2 class="text-center">Projects</h2>
   <section class="feature-v6 cd-padding-y-xl">
     <div class="cd-container cd-max-width-adaptive-lg">
@@ -10,9 +10,15 @@
             <% else %>
               <%= image_tag "https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg", alt: "default image", class: "feature-v6__img" %>
             <% end %>
-            <h4 class="cd-margin-bottom-2xs"><%= project.name %></h4>
+            <div class="d-flex">
+              <h4 class="cd-margin-bottom-2xs"><%= project.name %></h4>
+              <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim"/>
+            </div>
             <p class="feature-v6__description cd-margin-bottom-xs"><%= project.description %></p>
-            <p><a href="<%= project.url %>" class="cd-link", target="_blank">Learn more</a></p>
+            <div class="d-flex">
+              <p class="me-4"><a href="<%= project.url %>" class="cd-link", target="_blank">Website<i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+              <p><a href="<%= project.guthub %>" class="cd-link", target="_blank">Github<i class="fa-brands fa-square-github"></i></a></p>
+            </div>
           </div>
         <% end %>
       </div>
