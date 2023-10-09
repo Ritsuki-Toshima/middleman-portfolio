@@ -1,0 +1,92 @@
+/* home section styling */
+.home {
+  display: flex;
+  background: url('/images/projects/background.jpg') no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.home .max-width {
+  width: 100%;
+  display: flex;
+}
+
+.home .max-width .row {
+  margin-right: 0;
+}
+
+.home .home-content .text-1 {
+  font-size: 20px;
+}
+
+.home .home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.home .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+}
+
+.home .home-content .text-3 span {
+  color: crimson;
+  font-weight: 500;
+}
+
+.classbox {
+  position: relative;
+  width: 200px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 25px;
+  margin-top: 45px;
+  cursor: pointer;
+}
+
+.classbox::before {
+  content: '';
+  position: absolute;
+  width: 68px;
+  height: 500%;
+  border-radius: 0;
+  background: linear-gradient(#00ccff, #d400d4);
+  animation: animate-rotate 4s linear infinite;
+
+}
+
+.classbox::after {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  background: #0e1538;
+  /* background: crimson; */
+  border-radius: 20px;
+}
+
+@keyframes animate-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.classbox a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2em;
+  z-index: 10;
+  cursor: pointer;
+}
