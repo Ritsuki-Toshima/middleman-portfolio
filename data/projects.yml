@@ -29,9 +29,10 @@
          <i class="devicon-postgresql-plain-wordmark me-1"></i>
          <i class='devicon-rails-plain-wordmark me-1'></i>
 
-# - name: Coming soon
-#   description: Decent description of the app
-#   image: https://d3ae4wrz2ljkbq.cloudfront.net/components/img-16-9-dark-5.svg
-#   github:
-#   url: https://www.google.com
-#   skill: <i class='devicon-rails-plain-wordmark'></i>
+- name: Longest Word Game
+  description: Enter the longest word as soon as possible!
+  image: projects/longest-word.png
+  github: https://github.com/Ritsuki-Toshima/rails-longest-word-game
+  url: https://longest-word-game-cd29ad68a574.herokuapp.com/
+  skill: <i class="devicon-heroku-plain-wordmark me-1"></i>
+         <i class='devicon-rails-plain-wordmark'></i>
