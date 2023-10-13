@@ -97,6 +97,27 @@ Component
   }
 }
 
+
+/* レスポンシブデザイン*/
+@media (max-width: 768px) {
+  .feature-v6__grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .feature-v6__img {
+    height: auto;
+  }
+
+  element.style {
+    padding: 0px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
 /* --------------------------------
 
 Utilities
