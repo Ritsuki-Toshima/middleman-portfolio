@@ -124,6 +124,16 @@
         }
       }
 
+      &.ic-wantedly {
+        i {
+          color: #20bdda;
+        }
+
+        &:before {
+          background-color: #20bdda;
+        }
+      }
+
       &.ic-github {
         i {
           color: #000;
