@@ -44,3 +44,11 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+activate :blog do |blog|
+  blog.sources = "blog/{year}-{month}-{day}-{title}.html"
+  # パーマリンク形式
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
+  # ブログインデックスページのディレクトリ
+  blog.layout = "layout"
+end
